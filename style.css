@@ -195,6 +195,7 @@ Single product page */
     
     .formStyle{
         width:90vw;
+        height:auto;
         margin:0;
     }
 }
