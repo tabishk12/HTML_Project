@@ -191,11 +191,41 @@ Single product page */
     overflow-y: scroll;
 }
 
-@media screen and (max-width : 495px) {
+@media screen and (max-width :540px) {
     
     .formStyle{
         width:90vw;
         height:auto;
         margin:0;
+    }
+    fieldset{
+        padding:0.3em;
+        font-weight:1.3em;
+        height:auto;
+        margin:0em;
+    }
+    .single-Container {
+        padding:2rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin:0.5em 1em;
+        gap:2rem;
+        min-height: 400px;
+     
+    }
+    .sideImage {
+        display: flex;
+        flex-direction: row;
+        gap:10px;
+        background-color: rgba(28, 26, 26,0.1);
+        box-shadow:-10px -10px 5px rgb(88, 83, 83);
+        height:auto;
+    }
+    .product-description{
+        border:2px solid rgba(28, 26, 26,0.1);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        height: 400px;
+        overflow-y: scroll;
     }
 }
